@@ -1,0 +1,24 @@
+INDEX:
+
+Navbar:
+Remover navbar preta
+remover btn de busca
+remover links
+alterar texto links
+logo marca
+remover "blog"
+
+body
+
+alterar imagens do carrosel
+alterar texto carrousel
+alterar cor amarela para laranja
+alterar textos para portugues
+alterar todas as imagens
+remover section "our services"
+remover "our team"
+remover "our testimonials"
+remover "our lasted blog"
+altear parceiros
+remover colunas do footer
+alterar copyright para 2019
