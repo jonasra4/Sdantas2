@@ -87,10 +87,10 @@
                             <a href="index.html" >Inicio</a>
                         </li>
                         <li class="dropdown submenu">
-                            <a href="#sobre_div" >Sobre</a>
+                            <a href="about.html" >Sobre</a>
                         </li>
                         <li class="dropdown submenu">
-                            <a href="#servicos_div">Serviços</a>
+                            <a href="services.html">Serviços</a>
                         </li>
                         <!-- <li><a href="#">Gallery</a></li> -->
                         <!-- <li class="dropdown submenu">
@@ -100,7 +100,7 @@
                                 <li><a href="blog-2.html">Blog-2</a></li>
                             </ul>
                         </li> -->
-                        <li><a href="#projetos_div">Projetos</a></li>
+                        <li><a href="contact.html">SD Imóveis</a></li>
                         <li><a href="contact.html">Contato</a></li>
                         <!-- <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li> -->
                     </ul>
@@ -167,8 +167,8 @@
     <!-- End Professional Builde -->
 
     <!-- About Us Area -->
-    <section  class="about_us_area row">
-        <div id="sobre_div" class="container">
+    <section class="about_us_area row">
+        <div class="container">
             <div class="tittle wow fadeInUp">
                 <h2>SOBRE NÓS</h2>
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
@@ -191,7 +191,7 @@
     <!-- End About Us Area -->
 
     <!-- What ew offer Area -->
-    <section id="servicos_div" class="what_we_area row">
+    <section class="what_we_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
                 <h2>O QUE NÓS OFERECEMOS</h2>
@@ -456,7 +456,7 @@
     <!-- End Our Team Area -->
 
     <!-- Our Achievments Area -->
-    <section  class="our_achievments_area" data-stellar-background-ratio="0.3">
+    <section class="our_achievments_area" data-stellar-background-ratio="0.3">
         <div class="container">
             <div class="tittle wow fadeInUp">
                 <h2>O QUE JÁ FIZEMOS</h2>
@@ -466,7 +466,7 @@
                 <div class="col-md-3 col-sm-6 p0 completed">
                     <i class="fa fa-connectdevelop" aria-hidden="true"></i>
                     <span class="counter">800</span>
-                    <h6>PROJETOS CONCLUÍDOS</h6>
+                    <h6>PROJETOS CONCCLUIDOS</h6>
                 </div>
                 <div class="col-md-3 col-sm-6 p0 completed">
                     <i class="fa fa-home" aria-hidden="true"></i>
@@ -586,7 +586,7 @@
     <!-- End Our testimonial Area -->
 
     <!-- Our Featured Works Area -->
-    <section id="projetos_div" class="featured_works row" data-stellar-background-ratio="0.3">
+    <section class="featured_works row" data-stellar-background-ratio="0.3">
         <div class="tittle wow fadeInUp">
             <h2>NOSSOS MELHORES PROJETOS</h2>
             <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
@@ -788,43 +788,5 @@
     <script src="vendors/stellar/jquery.stellar.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
-    <script>
-    // Select all links with hashes
-$('a[href*="#"]')
-// Remove links that don't actually link to anything
-.not('[href="#"]')
-.not('[href="#0"]')
-.click(function(event) {
-// On-page links
-if (
-location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-&&
-location.hostname == this.hostname
-) {
-// Figure out element to scroll to
-var target = $(this.hash);
-target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-// Does a scroll target exist?
-if (target.length) {
-// Only prevent default if animation is actually gonna happen
-event.preventDefault();
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000, function() {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
-              return false;
-            } else {
-              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-              $target.focus(); // Set focus again
-            };
-          });
-          }
-          }
-          });
-            </script>
 </body>
 </html>
