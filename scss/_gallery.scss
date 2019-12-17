@@ -1,7 +1,7 @@
-.featured_works{ 
+.featured_works{
     background: url("../images/protfolio_bg.jpg") no-repeat fixed;
     background-position: center;
-    text-align: center; 
+    text-align: center;
     position: relative;
     z-index: 1;
     padding-bottom: 100px;
@@ -49,11 +49,11 @@
                 @include transition;
             }
             .gallery_hover{
-                position: absolute; 
+                position: absolute;
                 top: 45%;
                 left: 0;
                 transform: translateY(-50%);
-                right: 0; 
+                right: 0;
                 text-align: center;
                 z-index: 2;
                 h4{
@@ -100,4 +100,3 @@
         }
     }
 }
- 
