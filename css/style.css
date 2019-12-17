@@ -2685,3 +2685,42 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+li.li_adress{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contato_config{
+  font-size: 20px;
+  color: white;
+  font: 400 18px "Roboto", sans-serif;
+
+}
+ul.my_address{
+  list-style-type: none;
+padding-left: 0px;
+}
+
+.contato_margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contato_div{
+  background: black;
+}
